@@ -1,11 +1,9 @@
-
-
 #crew_name {
 
     font-family: arial;
     background-color: rgb(114, 194, 194);
     width: 200px;
-    
+
 }
 
 #bio_box {
@@ -52,4 +50,13 @@ li:hover {
     height: 50px;
     width: 115px;
     font-size: 33px;
+}
+
+#found_air_freeze {
+    width: 50vw;
+    /* Sets the width to 50% of the viewport width */
+    display: block;
+    /* Makes the image a block-level element */
+    margin: 0 auto;
+    /* Centers the block-level element horizontally */
 }
