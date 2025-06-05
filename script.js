@@ -28,7 +28,7 @@ cozy_button.addEventListener("click", event => {
 
     if (viewing === true) {
         let member_name = event.target.textContent;
-        bio.textContent += member_name + `: ${cozy_bio}`;
+        bio.textContent = member_name + `: ${cozy_bio}`;
     } else if (viewing = false) {
         console.log("viewing = false");
     };
@@ -67,7 +67,7 @@ viper_button.addEventListener("click", event => {
 
     if (viewing === true) {
         let member_name = event.target.textContent;
-        bio.textContent += member_name + `: ${viper_bio}`;
+        bio.textContent = member_name + `: ${viper_bio}`;
     } else if (viewing = false) {
         console.log("viewing = false");
     };
@@ -79,6 +79,6 @@ done_button.addEventListener("click", event => {
 
     console.log("done_button, clicked!");
     viewing = false;
-    bio = "";
+    bio.textContent = "";
 
 });
