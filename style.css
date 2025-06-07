@@ -45,6 +45,23 @@
     font-size: 50px;
 }
 
+#crew_photo {
+    position: relative;
+    z-index: 1;
+}
+
+#cozy_photo {
+    position: absolute;
+    z-index: 2;
+    top: 0px;
+    left: -48px;
+}
+
+#crew_photo:hover {
+    cursor: pointer;
+    opacity: 80%;
+}
+
 
 #done_box {
     font-family: arial;
@@ -64,3 +81,7 @@
 
 
 
+#instagram {
+    font-family: Arial;
+    background-color: rgb(162, 229, 246);
+}

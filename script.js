@@ -67,6 +67,14 @@ document.querySelector("#buttons").addEventListener("click", e => {
 });
 
 
+
+document.querySelector("#crew_photo").addEventListener("click", () => {
+
+    main_space.textContent = crew_bio.textContent;
+
+});
+
+
 document.querySelector("#done_button").addEventListener("click", () => {
 
     main_space.textContent = "";
