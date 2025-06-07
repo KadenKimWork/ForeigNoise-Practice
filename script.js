@@ -9,6 +9,7 @@ let main_space = document.querySelector("#main_space");
 let crew_bio = document.querySelector("#crew_bio");
 let members_list = document.querySelector("#members_list");
 let achievements_list = document.querySelector("#achievements_list");
+   //let crew_video = videoElement.src("crew_video_space");
 let media_list = document.querySelector("#media_list");
 
 let found_bio = document.querySelector("#found");
@@ -62,7 +63,7 @@ document.querySelector("#buttons").addEventListener("click", e => {
     } else if (e.target == achievements_button) {
         main_space.textContent = achievements_list.textContent;
     } else if (e.target == media_button) {
-        main_space.textContent = media_list.textContent;
+        main_space.textContent = "VIDEO";
     };
 });
 
