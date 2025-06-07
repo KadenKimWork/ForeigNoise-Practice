@@ -6,21 +6,24 @@
 
 }
 
-#bio_box {
-
-    background-color: rgb(114, 194, 194);
-
-    height: 400px;
-    width: 600px;
-
-
+#members_button {
+    color: black;
+    font-family: Arial;
+    background-color: rgb(162, 229, 246);
 }
 
-#bio_text {
-    font-family: arial;
+#achievements_button {
+    color: black;
+    font-family: Arial;
+    background-color: rgb(162, 229, 246);
 }
 
+#media_button {
+    color: black;
+    font-family: Arial;
+    background-color: rgb(162, 229, 246);
 
+}
 
 #member_list {
     font-size: 30px;
