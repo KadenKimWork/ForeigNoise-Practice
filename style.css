@@ -6,6 +6,12 @@
 
 }
 
+#crew_bio_button {
+    color: black;
+    font-family: Arial;
+    background-color: rgb(162, 229, 246);
+}
+
 #members_button {
     color: black;
     font-family: Arial;
