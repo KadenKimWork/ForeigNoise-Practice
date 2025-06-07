@@ -40,6 +40,12 @@
     font-family: arial;
 }
 
+#main_space {
+    font-family: Arial;
+    font-size: 50px;
+}
+
+
 #done_box {
     font-family: arial;
     font-size: 30px;
