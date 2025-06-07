@@ -12,7 +12,7 @@
     background-color: rgb(162, 229, 246);
 }
 
-buttons:hover {
+#buttons:hover {
     cursor: pointer;
 }
 
@@ -48,7 +48,7 @@ buttons:hover {
     width: 105px;
 }
 
-#done_box:hover {
+#done_button:hover {
     cursor: pointer;
     background-color: rgb(175, 118, 56);
     height: 50px;
