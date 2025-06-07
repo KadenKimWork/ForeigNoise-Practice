@@ -12,6 +12,10 @@
     background-color: rgb(162, 229, 246);
 }
 
+buttons:hover {
+    cursor: pointer;
+}
+
 #members_button {
     color: black;
     font-family: Arial;
@@ -35,15 +39,6 @@
     font-size: 30px;
     font-family: arial;
 }
-
-li:hover {
-
-    cursor: pointer;
-    font-size: 40px;
-    background-color: rgb(75, 171, 171);
-
-}
-
 
 #done_box {
     font-family: arial;
