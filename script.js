@@ -12,7 +12,7 @@ let achievements_list = document.querySelector("#achievements_list");
    //let crew_video = videoElement.src("crew_video_space");
 let media_list = document.querySelector("#media_list");
 
-let found_bio = document.querySelector("#found");
+//let found_bio = document.querySelector("#found");
 
 
 
@@ -53,7 +53,7 @@ media_button.addEventListener("click", () => {
 
 
 
-main_space.textContent = crew_bio.textContent;
+//main_space.textContent = crew_bio.textContent;
 
 /*
 document.querySelector("#buttons").addEventListener("click", e => {
@@ -85,9 +85,12 @@ document.querySelector("#buttons").addEventListener("click", e => {
 
     } else if (e.target == achievements_button) {
         //main_space.textContent = achievements_list.textContent;
+        main_space_div.innerHTML = '<p id="achievements list">TACO AMIGO, CHINA UN, HOLI HAI</p>'
 
     } else if (e.target == media_button) {
         //main_space.textContent = "VIDEO";
+
+        main_space_div.innerHTML = '<p id="media_list">MEDIA:<video id="crew_video" src="ForeigNoise Teaser Test_01.m4v" controls height = 40% width = 40%> </p>'
 
     };
 });
