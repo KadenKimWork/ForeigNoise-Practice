@@ -55,15 +55,37 @@ media_button.addEventListener("click", () => {
 
 main_space.textContent = crew_bio.textContent;
 
+/*
 document.querySelector("#buttons").addEventListener("click", e => {
     if (e.target == crew_bio_button) {
         main_space.textContent = crew_bio.textContent;
     } else if (e.target == members_button) {
-        main_space.textContent = members_list.textContent;
+        main_space.textContent = document.querySelector("#cozy_name").innerHTML + document.querySelector("#cozy_name").textContent;
     } else if (e.target == achievements_button) {
         main_space.textContent = achievements_list.textContent;
     } else if (e.target == media_button) {
         main_space.textContent = "VIDEO";
+    };
+});
+*/
+
+const main_space_div = document.getElementById('main_space');
+
+
+document.querySelector("#buttons").addEventListener("click", e => {
+    if (e.target == crew_bio_button) {
+        //main_space.textContent = crew_bio.textContent;
+        main_space_div.innerHTML = '<p id="crew_bio">This is the crew bio.</p>'
+
+    } else if (e.target == members_button) {
+        //main_space.textContent = document.querySelector("#cozy_name").innerHTML + document.querySelector("#cozy_name").textContent;
+
+    } else if (e.target == achievements_button) {
+        //main_space.textContent = achievements_list.textContent;
+
+    } else if (e.target == media_button) {
+        //main_space.textContent = "VIDEO";
+
     };
 });
 
@@ -79,5 +101,11 @@ document.querySelector("#crew_photo").addEventListener("click", () => {
 document.querySelector("#done_button").addEventListener("click", () => {
 
     main_space.textContent = "";
+
+});
+
+document.querySelector("#cozy_name").addEventListener("click", () => {
+
+    alert("COZY");
 
 });
