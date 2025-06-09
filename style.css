@@ -44,6 +44,18 @@
     font-family: arial;
 }
 
+#cozy_name:hover {
+    cursor: pointer;
+}
+
+#found_name:hover {
+    cursor: pointer;
+}
+
+#viper_name:hover {
+    cursor: pointer;
+}
+
 #main_space {
     font-family: Arial;
     font-size: 50px;
