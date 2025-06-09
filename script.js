@@ -90,7 +90,7 @@ document.querySelector("#buttons").addEventListener("click", e => {
     } else if (e.target == media_button) {
         //main_space.textContent = "VIDEO";
 
-        main_space_div.innerHTML = '<p id="media_list">MEDIA:<video id="crew_video" src="ForeigNoise Teaser Test_01.m4v" controls height = 40% width = 40%> </p>'
+        main_space_div.innerHTML = '<p id="media_list">MEDIA:<img src="ForeigNoise Crew Photo.jpg" id="crew_photo" height = 70% width = 70% alt="group photo of ForeigNoise members"><video id="crew_video" src="ForeigNoise Teaser Test_01.m4v" controls height = 40% width = 40%> </p>'
 
     };
 });
@@ -101,7 +101,7 @@ document.querySelector("#cozy_name").addEventListener("click", () => {
 
 document.querySelector("#crew_photo").addEventListener("click", () => {
 
-    main_space.textContent = crew_bio.textContent;
+    main_space_div.innerHTML = '<p id="crew_bio">This is the crew bio.</p>'
 
 });
 
