@@ -88,7 +88,7 @@ document.querySelector("#buttons").addEventListener("click", e => {
     } else if (e.target == members_button) {
         //main_space.textContent = document.querySelector("#cozy_name").innerHTML + document.querySelector("#cozy_name").textContent;
         
-        main_space_div.innerHTML = '<div id="members_list"><p id="cozy_name"><img src="Cozy_Photo.png">COZY</p><p id="found_name">FOUND</p><p id="viper_name">VIPER</p></div>'
+        main_space_div.innerHTML = '<div id="members_list"><p id="cozy_name"><img src="Cozy_Photo.png" style="width: 70px; height: auto;">COZY</p><p id="found_name">FOUND</p><p id="viper_name">VIPER</p></div>'
 
             /*
             document.querySelector("#members_list").addEventListener("click", e => {
