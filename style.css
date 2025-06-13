@@ -64,6 +64,21 @@
     font-size: 50px;
 }
 
+#taco_amigo_head {
+    font-size: 40px;
+}
+#taco_amigo {
+    font-size: 20px;
+}
+
+#china_un {
+    font-size: 20px;
+}
+
+#holi_hai {
+    font-size: 20px;
+}
+
 #crew_photo {
     position: relative;
     z-index: 1;
@@ -81,6 +96,8 @@
     cursor: pointer;
     opacity: 80%;
 }
+
+
 
 
 #done_box {
