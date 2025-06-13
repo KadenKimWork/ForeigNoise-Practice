@@ -14,6 +14,10 @@ let media_list = document.querySelector("#media_list");
 
 //let found_bio = document.querySelector("#found");
 
+let cozy_button = document.querySelector("#cozy_name");
+let found_button = document.querySelector("#found_name");
+let viper_button = document.querySelector("#viper_name");
+
 
 
 /*
@@ -69,19 +73,49 @@ document.querySelector("#buttons").addEventListener("click", e => {
 });
 */
 
-const main_space_div = document.getElementById('main_space');
+let main_space_div = document.getElementById('main_space');
+
+
 
 
 document.querySelector("#buttons").addEventListener("click", e => {
+
+
     if (e.target == crew_bio_button) {
         //main_space.textContent = crew_bio.textContent;
         main_space_div.innerHTML = '<p id="crew_bio">This is the crew bio.</p>'
 
     } else if (e.target == members_button) {
         //main_space.textContent = document.querySelector("#cozy_name").innerHTML + document.querySelector("#cozy_name").textContent;
-        main_space_div.innerHTML = '<p id="cozy_name">COZY</p><p id="found_name">FOUND</p><p id="viper_name">VIPER</p>'
-
         
+        main_space_div.innerHTML = '<div id="members_list"><p id="cozy_name">COZY</p><p id="found_name">FOUND</p><p id="viper_name">VIPER</p></div>'
+
+            /*
+            document.querySelector("#members_list").addEventListener("click", e => {
+                if (e.target === cozy_button) {
+                    main_space_div.innerHTML = '<p id="cozy_bio">Cozy age 36</p>'
+                    alert("COZY");
+                } else if (e.target === found_button) {
+                    main_space_div.innerHTML = '<p id="found_bio">Found age 31</p>'
+                    alert("FOUND");
+                } else if (e.target === viper_button) {
+                    main_space_div.innerHTML = '<p id="viper_bio">Viper age 28</p>'
+                    alert("VIPER");
+                }
+            });
+            */
+
+        document.querySelector("#cozy_name").addEventListener("click", () => {
+            main_space_div.innerHTML = '<p id="cozy_bio">Cozy age 36</p>'
+            
+        });
+        document.querySelector("#found_name").addEventListener("click", () => {
+            main_space_div.innerHTML = '<p id="found_bio">Found age 31</p>'
+        });
+        document.querySelector("#viper_name").addEventListener("click", () => {
+            main_space_div.innerHTML = '<p id="viper_name">Viper age 28</p>'            
+        })
+
 
     } else if (e.target == achievements_button) {
         //main_space.textContent = achievements_list.textContent;
@@ -95,9 +129,9 @@ document.querySelector("#buttons").addEventListener("click", e => {
     };
 });
 
-document.querySelector("#cozy_name").addEventListener("click", () => {
-            main_space_div.innerHMTL = '<p id="cozy_bio>Cozy age 34</p>'
-        });
+
+           
+
 
 document.querySelector("#crew_photo").addEventListener("click", () => {
 
@@ -108,12 +142,7 @@ document.querySelector("#crew_photo").addEventListener("click", () => {
 
 document.querySelector("#done_button").addEventListener("click", () => {
 
-    main_space.textContent = "";
+    main_space_div.innerHTML = ''
 
 });
 
-document.querySelector("#cozy_name").addEventListener("click", () => {
-
-    alert("COZY");
-
-});
