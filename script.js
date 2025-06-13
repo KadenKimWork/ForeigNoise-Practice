@@ -18,6 +18,8 @@ let cozy_button = document.querySelector("#cozy_name");
 let found_button = document.querySelector("#found_name");
 let viper_button = document.querySelector("#viper_name");
 
+let back_to_members_button = document.querySelector("#to_members_button");
+
 
 
 /*
@@ -109,10 +111,14 @@ document.querySelector("#buttons").addEventListener("click", e => {
             main_space_div.innerHTML = '<p id="cozy_bio"><img src="Cozy_Photo.png" style="width: 100px; height: auto;">Cozy age 36</p>'
         });
         document.querySelector("#found_name").addEventListener("click", () => {
-            main_space_div.innerHTML = '<p id="found_bio"><img src="Found_Photo.png" style="width: 100px; height: auto;">Found age 31</p>'
+            main_space_div.innerHTML = '<p id="found_bio"><img src="Found_Photo.png" style="width: 100px; height: auto;">Found age 31</p>' + '<button id="to_members_button">BACK TO MEMBERS</button>'
+
+            document.querySelector("#to_members_button").addEventListener("click", () => {
+                main_space_div.innerHTML = '<div id="members_list"><p id="cozy_name"><img src="Cozy_Photo.png" style="width: 70px; height: auto;">COZY</p><p id="found_name"><img src="Found_Photo.png" style="width: 70px; height: auto">FOUND</p><p id="viper_name"><img src="Viper_Photo.png" style="width: 70px; height: auto;">VIPER</p></div>'
+            });
         });
         document.querySelector("#viper_name").addEventListener("click", () => {
-            main_space_div.innerHTML = '<p id="viper_name"><img src="Viper_Photo.png" style="width: 100px; height: auto;">Viper age 28</p>'            
+            main_space_div.innerHTML = '<p id="viper_name"><img src="Viper_Photo.png" style="width: 100px; height: auto;">Viper age 28</p>'
         })
 
 
