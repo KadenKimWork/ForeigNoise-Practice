@@ -88,7 +88,7 @@ document.querySelector("#buttons").addEventListener("click", e => {
     } else if (e.target == members_button) {
         //main_space.textContent = document.querySelector("#cozy_name").innerHTML + document.querySelector("#cozy_name").textContent;
         
-        main_space_div.innerHTML = '<div id="members_list"><p id="cozy_name">COZY</p><p id="found_name">FOUND</p><p id="viper_name">VIPER</p></div>'
+        main_space_div.innerHTML = '<div id="members_list"><p id="cozy_name"><img src="Cozy_Photo.png">COZY</p><p id="found_name">FOUND</p><p id="viper_name">VIPER</p></div>'
 
             /*
             document.querySelector("#members_list").addEventListener("click", e => {
@@ -106,7 +106,7 @@ document.querySelector("#buttons").addEventListener("click", e => {
             */
 
         document.querySelector("#cozy_name").addEventListener("click", () => {
-            main_space_div.innerHTML = '<p id="cozy_bio">Cozy age 36</p>'
+            main_space_div.innerHTML = '<p id="cozy_bio"><img src="Cozy_Photo.png">Cozy age 36</p>'
         });
         document.querySelector("#found_name").addEventListener("click", () => {
             main_space_div.innerHTML = '<p id="found_bio">Found age 31</p>'
