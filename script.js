@@ -107,7 +107,6 @@ document.querySelector("#buttons").addEventListener("click", e => {
 
         document.querySelector("#cozy_name").addEventListener("click", () => {
             main_space_div.innerHTML = '<p id="cozy_bio">Cozy age 36</p>'
-            
         });
         document.querySelector("#found_name").addEventListener("click", () => {
             main_space_div.innerHTML = '<p id="found_bio">Found age 31</p>'
@@ -124,7 +123,7 @@ document.querySelector("#buttons").addEventListener("click", e => {
     } else if (e.target == media_button) {
         //main_space.textContent = "VIDEO";
 
-        main_space_div.innerHTML = '<p id="media_list">MEDIA:<img src="ForeigNoise Crew Photo.jpg" id="crew_photo" height = 70% width = 70% alt="group photo of ForeigNoise members"><video id="crew_video" src="ForeigNoise Teaser Test_01.m4v" controls height = 40% width = 40%> </p>'
+        main_space_div.innerHTML = '<p id="media_list">TACO AMIGO BREAKING NIGHT:<img src="ForeigNoise Crew Photo.jpg" id="crew_photo" height = 70% width = 70% alt="group photo of ForeigNoise members">FOREIGNOISE HIGHLIGHT REEL:<br></br></p><video id="crew_video" src="ForeigNoise Teaser Test_01.m4v" controls height = 40% width = 40%> </p>'
 
     };
 });
