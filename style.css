@@ -10,6 +10,7 @@
     color: black;
     font-family: Arial;
     background-color: rgb(162, 229, 246);
+    opacity: 0;
 }
 
 #buttons:hover {

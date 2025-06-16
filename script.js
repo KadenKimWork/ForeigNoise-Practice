@@ -9,10 +9,7 @@ let main_space = document.querySelector("#main_space");
 let crew_bio = document.querySelector("#crew_bio");
 let members_list = document.querySelector("#members_list");
 let achievements_list = document.querySelector("#achievements_list");
-   //let crew_video = videoElement.src("crew_video_space");
 let media_list = document.querySelector("#media_list");
-
-//let found_bio = document.querySelector("#found");
 
 let cozy_button = document.querySelector("#cozy_name");
 let found_button = document.querySelector("#found_name");
@@ -23,8 +20,12 @@ let back_to_members_button = document.querySelector("#to_members_button");
 let main_space_div = document.getElementById('main_space');
 
 menu_button.addEventListener("click", () => {
-
-    alert("CLICK");
+//I want this menu button to later become those common 2 or 3 horizontal lines that people can click to open other options to click on. But for now it's a button.
+ 
+     
+            crew_bio_button.style.opacity += 0.2 * 1;
+            crew_bio_button.style.cursor = "pointer";
+        
 
 });
 
