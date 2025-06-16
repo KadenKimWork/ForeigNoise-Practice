@@ -1,4 +1,4 @@
-
+let menu_button = document.querySelector("#menu_button");
 let crew_bio_button = document.querySelector("#crew_bio_button");
 let members_button = document.querySelector("#members_button");
 let achievements_button = document.querySelector("#achievements_button");
@@ -20,64 +20,13 @@ let viper_button = document.querySelector("#viper_name");
 
 let back_to_members_button = document.querySelector("#to_members_button");
 
-
-
-/*
-crew_bio_button.addEventListener("click", () => {
-    crew_bio.textContent = "ForeigNoise is a worldwide breaking team. Founded in 2019, it served as a community of both foreign and Korean breakers to bridge cultural differences through Hip Hop culture and dance. While it started off as a forum for the foreign-breaking community to come together to learn from one another, battle, and prepare for competitions, ForeigNoise has evolved into its current form to educate and entertain public and private audiences about breaking and Hip Hop culture. Its current membership includes members of the Korean diaspora from the Philippines and the United States.";
-    members_list.textContent = "";
-    achievements_list.textContent = "";
-    media_list.textContent = "";
-});
-
-members_button.addEventListener("click", () => {
-    crew_bio.textContent = "";
-    members_list.textContent = members_list.textContent;
-    //members_list.textContent = found_bio.textContent;
-    achievements_list.textContent = "";
-    media_list.textContent = "";
-
-
-});
-
-achievements_button.addEventListener("click", () => {
-    crew_bio.textContent = "";
-    members_list.textContent = "";
-    achievements_list.textContent = "Taco Amigo, China UN, Holi Hai";
-    media_list.textContent = "";
-});
-
-media_button.addEventListener("click", () => {
-    crew_bio.textContent = "";
-    members_list.textContent = "";
-    achievements_list.textContent = "";
-    media_list.textContent = "PHOTO AND VIDEO PLACEHOLDER";
-})
-*/
-
-
-
-
-
-//main_space.textContent = crew_bio.textContent;
-
-/*
-document.querySelector("#buttons").addEventListener("click", e => {
-    if (e.target == crew_bio_button) {
-        main_space.textContent = crew_bio.textContent;
-    } else if (e.target == members_button) {
-        main_space.textContent = document.querySelector("#cozy_name").innerHTML + document.querySelector("#cozy_name").textContent;
-    } else if (e.target == achievements_button) {
-        main_space.textContent = achievements_list.textContent;
-    } else if (e.target == media_button) {
-        main_space.textContent = "VIDEO";
-    };
-});
-*/
-
 let main_space_div = document.getElementById('main_space');
 
+menu_button.addEventListener("click", () => {
 
+    alert("CLICK");
+
+});
 
 
 document.querySelector("#buttons").addEventListener("click", e => {
@@ -92,20 +41,7 @@ document.querySelector("#buttons").addEventListener("click", e => {
         
         main_space_div.innerHTML = '<div id="members_list"><p id="cozy_name"><img src="Cozy_Photo.png" style="width: 70px; height: auto;">COZY</p><p id="found_name"><img src="Found_Photo.png" style="width: 70px; height: auto">FOUND</p><p id="viper_name"><img src="Viper_Photo.png" style="width: 70px; height: auto;">VIPER</p></div>'
 
-            /*
-            document.querySelector("#members_list").addEventListener("click", e => {
-                if (e.target === cozy_button) {
-                    main_space_div.innerHTML = '<p id="cozy_bio">Cozy age 36</p>'
-                    alert("COZY");
-                } else if (e.target === found_button) {
-                    main_space_div.innerHTML = '<p id="found_bio">Found age 31</p>'
-                    alert("FOUND");
-                } else if (e.target === viper_button) {
-                    main_space_div.innerHTML = '<p id="viper_bio">Viper age 28</p>'
-                    alert("VIPER");
-                }
-            });
-            */
+        
 
         document.querySelector("#cozy_name").addEventListener("click", () => {
             main_space_div.innerHTML = '<p id="cozy_bio"><img src="Cozy_Photo.png" style="width: 100px; height: auto;">Cozy age 36</p>'
