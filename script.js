@@ -114,7 +114,7 @@ document.querySelector("#buttons").addEventListener("click", e => {
             main_space_div.innerHTML = '<p id="found_bio"><img src="Found_Photo.png" style="width: 100px; height: auto;">Found age 31</p>' + '<button id="to_members_button">BACK TO MEMBERS</button>'
 
             document.querySelector("#to_members_button").addEventListener("click", () => {
-                main_space_div.innerHTML = '<div id="members_list"><p id="cozy_name"><img src="Cozy_Photo.png" style="width: 70px; height: auto;">COZY</p><p id="found_name"><img src="Found_Photo.png" style="width: 70px; height: auto">FOUND</p><p id="viper_name"><img src="Viper_Photo.png" style="width: 70px; height: auto;">VIPER</p></div>'
+                main_space_div.innerHTML = '<div id="members_list"><p id="cozy_name"><img src="Cozy_Photo.png" style="width: 70px; height: auto;">COZY</p><p id="found_name"><img src="Found_Photo.png" style="width: 70px; height: auto;">FOUND</p><p id="viper_name"><img src="Viper_Photo.png" style="width: 70px; height: auto;">VIPER</p></div>'
             });
         });
         document.querySelector("#viper_name").addEventListener("click", () => {
