@@ -1,3 +1,5 @@
+let crew_head = document.querySelector("#crew_head");
+
 let menu_button = document.querySelector("#menu_button");
 let crew_bio_button = document.querySelector("#crew_bio_button");
 let members_button = document.querySelector("#members_button");

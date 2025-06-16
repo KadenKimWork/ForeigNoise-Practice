@@ -1,9 +1,21 @@
-#crew_name {
+#crew_head {
 
+    position: absolute;
+    top: 10px;
     font-family: arial;
     background-color: rgb(114, 194, 194);
     width: 300px;
 
+}
+
+#intro {
+    position: absolute;
+    top: 70px;
+}
+
+#buttons {
+    position: absolute;
+    top: 140px;
 }
 
 #crew_bio_button {
@@ -17,6 +29,12 @@
     cursor: pointer;
 }
 
+#main_space {
+    position: absolute;
+    top: 300px;
+
+
+}
 #members_button {
     color: black;
     font-family: Arial;
@@ -99,16 +117,15 @@
 }
 
 
+#done_button {
+    position: absolute;
+    top: 600px;
+    background-color: rgb(162, 229, 246);
+    height: 50px;
+    width: 115px;
+    font-size: 33px;
 
-
-#done_box {
-    font-family: arial;
-    font-size: 30px;
-    background-color: rgb(202, 145, 83);
-    height: 40px;
-    width: 105px;
 }
-
 #done_button:hover {
     cursor: pointer;
     background-color: rgb(175, 118, 56);
@@ -118,7 +135,10 @@
 }
 
 
-
+#links {
+    position: absolute;
+    top: 700px;
+}
 #instagram {
     font-family: Arial;
     background-color: rgb(162, 229, 246);
