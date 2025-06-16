@@ -4,13 +4,16 @@
     top: 10px;
     font-family: arial;
     background-color: rgb(114, 194, 194);
-    width: 300px;
-
+    width: 280px;
+    left: 50%;
+    transform: translateX(-50%)
 }
 
 #intro {
     position: absolute;
     top: 70px;
+    left: 50%;
+    transform: translateX(-50%)
 }
 
 #buttons {
@@ -32,6 +35,8 @@
 #main_space {
     position: absolute;
     top: 300px;
+    left: 50%;
+    transform: translateX(-50%)
 
 
 }
@@ -124,6 +129,8 @@
     height: 50px;
     width: 115px;
     font-size: 33px;
+    left: 50%;
+    transform: translateX(-50%)
 
 }
 #done_button:hover {
@@ -135,11 +142,3 @@
 }
 
 
-#links {
-    position: absolute;
-    top: 700px;
-}
-#instagram {
-    font-family: Arial;
-    background-color: rgb(162, 229, 246);
-}

@@ -5,6 +5,7 @@ let crew_bio_button = document.querySelector("#crew_bio_button");
 let members_button = document.querySelector("#members_button");
 let achievements_button = document.querySelector("#achievements_button");
 let media_button = document.querySelector("#media_button");
+let follow_button = document.querySelector("#follow_button");
 
 let main_space = document.querySelector("#main_space");
 
