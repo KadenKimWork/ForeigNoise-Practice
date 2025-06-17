@@ -124,7 +124,7 @@
 
 #done_button {
     position: absolute;
-    top: 600px;
+    top: (main_space + 10000px);
     background-color: rgb(162, 229, 246);
     height: 50px;
     width: 115px;
